@@ -17,7 +17,7 @@
     var item;
     while (item = Zotero.nextItem()) {
       // ref
-      Zotero.write('- ' + item.title + ' #paper #source\n');
+      Zotero.write('- ' + item.title + ' #paper\n');
 
       // Citekey
       //Zotero.write('  - citekey:: ' + item.citationKey + '\n');
