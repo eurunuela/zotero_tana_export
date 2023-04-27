@@ -71,7 +71,7 @@
       // Status
       Zotero.write('  - Status:: Unread\n')
       
-      Zotero.write('  - Abstract:: '+  (item.abstractNote || '')+ '\n')
+      Zotero.write('  - Abstract:: '+  (item.abstractNote || '').replace(/\n/g, '\\n \\') + '\n')
     }
   }
   
